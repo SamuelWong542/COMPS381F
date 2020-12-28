@@ -5,7 +5,7 @@ const ObjectID = require('mongodb').ObjectID;
 const assert = require('assert');
 const fs = require('fs');
 const formidable = require('express-formidable');
-const mongourl = 'url';
+const mongourl = 'mongourl';
 const dbName = 'Test';
 const colName = 'res';
 
